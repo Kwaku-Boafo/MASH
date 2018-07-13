@@ -39,7 +39,7 @@ function getCar(){
         }
 }
 
-let spouse = [" Sarah" , " Betty", " Mariah", " Elaine", " Sophia" , " Cindy" , " Lindsy", " Stephanie"]; 
+let spouse = [" Sarah" , " Betty", " Mariah", " Elaine", " Sophia" , " Cindy" , " Lindsy", " Stephanie" , " Crystal" , " Adelaide" , " Clara" , " Annette", " Khadija" , " Jennifer" , " Suyasha" , " Pryanka" , " Christina" ]; 
 function nameOfSpouse(){
     let randSpouse = Math.floor(Math.random()* spouse.length);
     return spouse[randSpouse];
